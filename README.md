@@ -66,8 +66,9 @@ Editar
 git add .
 git commit -m "Actualización del código del parcial"
 git push origin main
-📌 Capturas de Pruebas en Postman y JUnit
-Las capturas de pantalla de las pruebas realizadas en Postman y JUnit se encuentran en la carpeta /screenshots del repositorio.
+ 
+Capturas de Pruebas en Postman y JUnit - Las fotos de pantalla se encuentran en el archivo .rar 
 
-📌 Enlace al Repositorio GitHub
+
+ Enlace al Repositorio GitHub
 https://github.com/JorgeMario-V/Parcial2.git
