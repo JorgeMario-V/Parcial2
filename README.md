@@ -2,7 +2,7 @@ Parcial 2 - API RESTful con Spring Boot
 Este proyecto corresponde al desarrollo del Parcial 2 sobre API RESTful utilizando Spring Boot 3+. Implementa un CRUD de productos, internacionalización, endpoints reactivos con WebFlux y pruebas con JUnit y StepVerifier.
 
  Requisitos Previos
-Antes de ejecutar este proyecto, asegúrate de tener instalado:
+
 
 Java 17 o superior
 Maven 3.8+
@@ -15,25 +15,13 @@ Git (para gestionar versiones y subir el código al repositorio)
 Ejecuta el siguiente comando en la terminal para clonar el proyecto:
 
 sh
-Copiar
-Editar
 git clone https://github.com/JorgeMario-V/Parcial2.git
 2️ Importar el Proyecto en IntelliJ
-Abre IntelliJ IDEA.
-Selecciona File → Open.
-Busca la carpeta del proyecto clonado y ábrela.
-Espera a que Maven descargue las dependencias automáticamente.
 3️ Configurar el Archivo application.properties
 El archivo src/main/resources/application.properties ya viene preconfigurado para ejecutar la API correctamente.
 
 4️ Ejecutar la Aplicación
-En IntelliJ, abre la clase principal del proyecto (Parcial2Application.java).
-Haz clic derecho y selecciona Run 'Parcial2Application'.
-Si prefieres usar la terminal, ejecuta:
-
 sh
-Copiar
-Editar
 mvn spring-boot:run
  Endpoints de la API
 1️ Endpoint de Saludo
@@ -54,15 +42,9 @@ GET /api/productos → Devuelve una lista de productos en formato reactivo con F
 Para ejecutar las pruebas con JUnit y StepVerifier, usa el siguiente comando en la terminal dentro del proyecto:
 
 sh
-Copiar
-Editar
 mvn test
- Subir Cambios al Repositorio GitHub
-Si realizas modificaciones y deseas subirlas a GitHub, ejecuta los siguientes comandos en la terminal de IntelliJ:
 
 sh
-Copiar
-Editar
 git add .
 git commit -m "Actualización del código del parcial"
 git push origin main
